@@ -10,5 +10,10 @@
 <style>
     ol {
         display: flex;
+        list-style-type: none;
+    }
+
+    li {
+        padding: 16px;
     }
 </style>

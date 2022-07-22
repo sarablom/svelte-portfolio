@@ -20,6 +20,8 @@
     a {
         text-decoration: none;
         color: inherit;
+        /* font-family: 'Cormorant SC', serif;
+        font-size: 1.5rem; */
     }
 
     a:hover {

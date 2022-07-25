@@ -15,7 +15,7 @@
     }
 
     li {
-        padding: 16px;
+        padding: 0 16px;
     }
 
     a {

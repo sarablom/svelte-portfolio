@@ -1,7 +1,9 @@
 <script>
 
 </script>
-    <h1 class="con">Contact<span class="dot"></span></h1>
+<section>
+
+    <h1 class="contact">Contact<span class="dot"></span></h1>
 
     <form
       action="https://formspree.io/f/mqkgjykq"
@@ -27,6 +29,11 @@
       ></textarea>
       <button type="submit" class="btn">Submit</button>
     </form>
-<style>
+</section>
 
+<style>
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
 </style>

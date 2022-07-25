@@ -1,9 +1,9 @@
 <script>
 
 </script>
-    <h1 class="exp">Experience<span class="dot"></span></h1>
 
-    <section class="experience">
+<section class="experience">
+        <h1 class="exp">Experience<span class="dot"></span></h1>
       <p>
         I'm a fullstack developer, with main focus on frontend. My main
         languages are JavaScript and TypeScript and I've mainly been working
@@ -32,20 +32,21 @@
         made me a better employee, with a wider perspective of organizational
         issues.
       </p>
-    </section>
-
-    <h1 class="edu">Education<span class="dot"></span></h1>
-
-    <dl id="utbildning">
+      
+      <h1 class="edu">Education<span class="dot"></span></h1>
+      
+      <dl id="utbildning">
         <dt>Highschool</dt>
-            <dd>Social sience at Strömstad Highschool</dd>
+        <dd>Social sience at Strömstad Highschool</dd>
         <dt>University</dt>
-            <dd>Bachelor in leadership, quality and change-management at Uppsala University</dd>
-            <dd>Master in sustainable urban development at Malmö University</dd>
+        <dd>Bachelor in leadership, quality and change-management at Uppsala University</dd>
+        <dd>Master in sustainable urban development at Malmö University</dd>
         <dt>Higher Vocational Education</dt>
-            <dd>Frontend development with special orientation towards Web security at Jensens Higher Vocational
-            Education</dd>
-    </dl>
+        <dd>Frontend development with special orientation towards Web security at Jensens Higher Vocational
+          Education</dd>
+        </dl>
+      </section>
+
 <style>
-    
+
 </style>

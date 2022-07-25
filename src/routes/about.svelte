@@ -4,14 +4,12 @@
 
 <section class="about-me">
     <h1 class="about">About me<span class="dot"></span></h1>
-    <article id="family">
+    <article id="personal">
         <h3>Family</h3>
         <p>I'm Sara Blom and I live with my partner, one child and two bonus-children in a appartment in
             Majorna, Gothenburg. I grew up in Dalsland, 200 km north of Gothenburg with my parents and three
             younger siblings.</p>
-    </article>
-    <article id="Interests">
-        <h3>Interests</h3>
+    
         <p>In my spare time I like to play drums, sew clothes and practice yoga. I play drums in a band called
             Deahracer together with two of my childhood friends. See link to our Spotify page in the bottom right corner!</p>
     </article>

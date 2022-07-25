@@ -48,17 +48,30 @@
         min-height: 5rem;
         display: flex;
         justify-content: center;
+        padding: 32px;
     }
 
     main {
         flex: 1;
         margin: 0 auto;
+        padding: 32px;
     }
 
     footer {
         min-height: 3rem;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
+        padding: 32px;
+    }
+
+    .social-media {
+        display: flex;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+        margin-left: 16px;
     }
 </style>

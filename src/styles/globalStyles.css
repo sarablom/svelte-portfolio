@@ -18,11 +18,9 @@
     3. Allow percentage-based heights in the application
   */
 html,
-body {
+body,
+.svelte-kit-body {
 	height: 100%;
-	background-color: #2c2c2c;
-	color: peachpuff;
-	font-family: 'Poppins', sans-serif;
 }
 /*
     Typographic tweaks!
@@ -32,6 +30,9 @@ body {
 body {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
+	background-color: #2c2c2c;
+	color: peachpuff;
+	font-family: 'Poppins', sans-serif;
 }
 /*
     6. Improve media defaults

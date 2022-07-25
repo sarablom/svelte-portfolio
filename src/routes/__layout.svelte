@@ -55,6 +55,9 @@
         flex: 1;
         margin: 0 auto;
         padding: 32px;
+        
+      max-width: 1000px;
+ 
     }
 
     footer {
@@ -67,11 +70,5 @@
 
     .social-media {
         display: flex;
-    }
-
-    a {
-        color: inherit;
-        text-decoration: none;
-        margin-left: 16px;
     }
 </style>

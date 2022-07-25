@@ -1,8 +1,6 @@
 <script>
 
 </script>
-
-<main class="contact">
     <h1 class="con">Contact<span class="dot"></span></h1>
 
     <form
@@ -29,8 +27,6 @@
       ></textarea>
       <button type="submit" class="btn">Submit</button>
     </form>
-  </main>
-
 <style>
 
 </style>

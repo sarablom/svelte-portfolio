@@ -1,11 +1,9 @@
 <script>
 
 </script>
-
-<main class="experience">
     <h1 class="exp">Experience<span class="dot"></span></h1>
 
-    <section class="erfarenhet">
+    <section class="experience">
       <p>
         I'm a fullstack developer, with main focus on frontend. My main
         languages are JavaScript and TypeScript and I've mainly been working
@@ -48,8 +46,6 @@
             <dd>Frontend development with special orientation towards Web security at Jensens Higher Vocational
             Education</dd>
     </dl>
-    </main>
-
 <style>
     
 </style>

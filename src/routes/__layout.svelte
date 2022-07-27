@@ -1,6 +1,8 @@
 <script>
     import Nav from "../lib/nav.svelte";
     import "../styles/globalStyles.css";
+    import { GithubIcon, InstagramIcon, LinkedinIcon } from "svelte-feather-icons";
+
 </script>
 
 <div class="wrapper">
@@ -16,18 +18,15 @@
         </div>
         <div class="social-media">
           <a href="https://github.com/sarablom/" target="”_blank”"
-            ><img src="img/github-sign@2x.png" alt="Github-link"
-          /></a>
+            ><GithubIcon size="3x" /></a>
           <a
             href="https://www.linkedin.com/in/sara-blom-8ba389144/"
             target="”_blank”"
-            ><img src="img/linkedin-logo@2x.png" alt="LinkedIn-link"
-          /></a>
+            ><LinkedinIcon size="3x" /></a>
           <a
             href="https://www.instagram.com/sarafox.barnklader/"
             target="”_blank”"
-            ><img src="img/instagram@2x.png" alt="Instagram-link"
-          /></a>
+            ><InstagramIcon size="3x" /></a>
           <a
             href="https://open.spotify.com/artist/1Vhr0X4FgDzqk8s33DUWCz?si=_oi5Cq8mSNuOgx3o4DN0HQ"
             target="”_blank”"

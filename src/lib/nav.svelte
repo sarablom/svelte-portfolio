@@ -1,3 +1,9 @@
+<script>
+    import { MenuIcon } from 'svelte-feather-icons';
+
+    export let menuOpen = false;
+</script>
+
 <nav>
     <ol>
         <li><a href="/">Home</a></li>
@@ -6,6 +12,9 @@
         <li><a href="/experience">Experience</a></li>
         <li><a href="/contact">Contact</a></li>
     </ol>
+    {#if menuOpen}
+        <MenuIcon />
+    {/if}
 </nav>
 
 <style>

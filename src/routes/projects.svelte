@@ -1,10 +1,18 @@
 <script>
-
+    import { fly } from "svelte/transition";
+    import { cubicOut } from "svelte/easing";
 </script>
 
 <section class="projects">
     <h1 class="about">Projects<span class="dot"></span></h1>
-    <article id="project2">
+    <article id="project2" in:fly={{
+        delay: 0,
+        duration: 400,
+        easing: cubicOut,
+        opacity: 0.5,
+        x: -100,
+        y: -100,
+    }}>
     <h3>Vobbiz</h3>
     <p>
         This is my first real project that is going live in the fall of
@@ -26,7 +34,14 @@
     <span class="dot white"></span>
     <span class="no-code">Not allowed to show this code</span>
     </article>
-    <article id="project1">
+    <article id="project1" in:fly|local={{
+        delay: 0,
+        duration: 400,
+        easing: cubicOut,
+        opacity: 0.5,
+        x: 100,
+        y: -100,
+    }}>
     <h3>Stillsamhetens Spa</h3>
     <p>
         A fullstack application built with React, TypeScript, Node, Express
@@ -49,7 +64,14 @@
         >The code</a
     >
     </article>
-    <article id="project2">
+    <article id="project2" in:fly|local={{
+        delay: 0,
+        duration: 400,
+        easing: cubicOut,
+        opacity: 0.5,
+        x: 100,
+        y: 100,
+    }}>
     <h3>Instablam</h3>
     <p>
         An application where you can take photos and save them to a gallery.

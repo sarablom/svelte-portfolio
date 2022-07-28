@@ -17,7 +17,7 @@
     {/if}
 </nav>
 
-<style>
+<style lang="scss">
     ol {
         display: flex;
         list-style-type: none;
@@ -30,11 +30,11 @@
     a {
         text-decoration: none;
         color: inherit;
-        /* font-family: 'Cormorant SC', serif;
-        font-size: 1.5rem; */
-    }
 
-    a:hover {
+        &:hover {
             text-decoration: underline;
         }
+    }
+
+   
 </style>

@@ -1,16 +1,16 @@
 <script>
+  import Button from "../lib/button.svelte";
+
+  function onClickHandler() {
+    console.log("Button clicked!");
+  }
 
 </script>
 <section>
 
     <h1 class="contact">Contact<span class="dot"></span></h1>
 
-    <form
-      action="https://formspree.io/f/mqkgjykq"
-      method="POST"
-      id="form"
-      class="contact-form"
-    >
+    <form class="contact-form">
       <label class="label1" for="name">Name</label>
       <input class="input1" type="text" name="name" id="name" required />
 
@@ -27,7 +27,7 @@
         rows="10"
         required
       ></textarea>
-      <button type="submit" class="btn">Submit</button>
+      <Button buttonTitle="Submit" on:click={onClickHandler} />
     </form>
 </section>
 

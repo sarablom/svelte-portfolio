@@ -18,11 +18,6 @@
     href="https://www.instagram.com/sarafox.barnklader/"
     target="”_blank”"
     ><InstagramIcon size="3x" /></a>
-    <a
-    href="https://open.spotify.com/artist/1Vhr0X4FgDzqk8s33DUWCz?si=_oi5Cq8mSNuOgx3o4DN0HQ"
-    target="”_blank”"
-    ><img src="img/spotify@2x.png" alt="Spotify-link"
-    /></a>
 </div>
 </footer>
 
@@ -30,7 +25,7 @@
     footer {
         min-height: 3rem;
         display: flex;
-        align-items: center;
+        align-items: baseline;
         justify-content: space-between;
         padding: 32px;
     }

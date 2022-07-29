@@ -1,10 +1,12 @@
 <script>
     import { MenuIcon } from 'svelte-feather-icons';
 
-    export let menuOpen = false;
+    export let menuOpen = true;
 </script>
 
 <nav>
+    <h3>Sara Blom</h3>
+    {#if !menuOpen}
     <ol>
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
@@ -12,12 +14,17 @@
         <li><a href="/experience">Experience</a></li>
         <li><a href="/contact">Contact</a></li>
     </ol>
-    {#if menuOpen}
+    {:else}
         <MenuIcon />
     {/if}
 </nav>
 
 <style lang="scss">
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     ol {
         display: flex;
         list-style-type: none;

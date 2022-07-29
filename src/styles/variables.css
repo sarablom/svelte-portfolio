@@ -1,0 +1,18 @@
+:root {
+    /* Colors */
+	--color-peachpuff: rgb(255, 218, 185);
+	--color-light-peachpuff: rgb(255, 239, 213);
+	--color-dark-peachpuff: rgb(238, 203, 173);
+	--color-beigh: rgb(205, 175, 149);
+	--color-aubergine: rgb(139, 71, 93);
+	--color-blackish: #2c2c2c;
+
+    /* Font sizes */
+    --font-size-s: clamp(0.8rem, 0.18vw + 0.66rem, 0.9rem);
+    --font-size-base: clamp(0.88rem, 0.34vw + 0.79rem, 1.06rem);
+    --font-size-m: clamp(1.09rem, 0.59vw + 0.95rem, 1.42rem);
+    --font-size-l: clamp(1.37rem, 0.95vw + 1.13rem, 1.7rem);
+    --font-size-xl: clamp(1.71rem, 1.47vw + 1.34rem, 2.2rem);
+    --font-size-xxl: clamp(2.14rem, 2.22vw + 1.58rem, 2.8rem);
+    --font-size-xxxl: clamp(2.67rem, 3.28vw + 1.85rem, 4rem);
+}

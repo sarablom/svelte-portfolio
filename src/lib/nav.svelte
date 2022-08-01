@@ -22,9 +22,14 @@
 <style lang="scss">
     nav {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+        align-items: baseline;
+        width: 90vw;
+        max-width: var(--max-width);
     }
+    h3 {
+        margin-right: auto;
+    }
+
     ol {
         display: flex;
         list-style-type: none;

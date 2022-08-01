@@ -19,6 +19,7 @@
   .wrapper {
     display: flex;
     flex-direction: column;
+    align-items: center;
     min-height: 100%;
   }
 
@@ -33,6 +34,6 @@
     flex: 1;
     margin: 0 auto;
     padding: 32px;
-    max-width: 1000px;
+    max-width: var(--max-width);
   }
 </style>

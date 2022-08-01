@@ -23,10 +23,12 @@
 
 <style lang="scss">
     footer {
-        min-height: 3rem;
         display: flex;
         align-items: baseline;
         justify-content: space-between;
+        min-height: 3rem;
+        width: 90vw;
+        max-width: var(--max-width);
         padding: 32px;
     }
 

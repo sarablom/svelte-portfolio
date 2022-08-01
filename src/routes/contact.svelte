@@ -1,5 +1,6 @@
 <script>
-  import Button from "../lib/button.svelte";
+import MainHeading from "$lib/mainHeading.svelte";
+import Button from "../lib/button.svelte";
 
   function onClickHandler() {
     console.log("Button clicked!");
@@ -8,7 +9,7 @@
 </script>
 <section>
 
-    <h1 class="contact">Contact<span class="dot"></span></h1>
+    <MainHeading headingTitle="Contact me" />
 
     <form class="contact-form">
       <label class="label1" for="name">Name</label>

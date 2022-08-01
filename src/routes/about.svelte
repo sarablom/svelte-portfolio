@@ -1,9 +1,11 @@
 <script>
+import MainHeading from "$lib/mainHeading.svelte";
+
 
 </script>
 
 <section class="about-me">
-    <h1 class="about">About me<span class="dot"></span></h1>
+    <MainHeading headingTitle="About me" />
     <article id="personal">
         <h3>Family</h3>
         <p>I'm Sara Blom and I live with my partner, one child and two bonus-children in a appartment in

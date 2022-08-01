@@ -1,2 +1,8 @@
-<h1>Sara Blom - software developer</h1>
+<script>
+import MainHeading from "$lib/mainHeading.svelte";
+
+</script>
+
+
+<MainHeading headingTitle="Sara Blom - software developer" />
 <p></p>

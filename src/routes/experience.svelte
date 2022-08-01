@@ -1,9 +1,11 @@
 <script>
+import MainHeading from "$lib/mainHeading.svelte";
+
 
 </script>
 
 <section class="experience">
-        <h1 class="exp">Experience<span class="dot"></span></h1>
+      <MainHeading headingTitle="Experience" />
       <p>
         I'm a fullstack developer, with main focus on frontend. My main
         languages are JavaScript and TypeScript and I've mainly been working

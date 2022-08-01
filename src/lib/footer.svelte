@@ -21,7 +21,7 @@
 </div>
 </footer>
 
-<style>
+<style lang="scss">
     footer {
         min-height: 3rem;
         display: flex;
@@ -32,5 +32,6 @@
 
     .social-media {
         display: flex;
+        gap: 16px;
     }
 </style>

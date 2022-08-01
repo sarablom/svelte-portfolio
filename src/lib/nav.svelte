@@ -1,7 +1,7 @@
 <script>
     import { MenuIcon } from 'svelte-feather-icons';
 
-    export let menuOpen = true;
+    export let menuOpen = false;
 </script>
 
 <nav>

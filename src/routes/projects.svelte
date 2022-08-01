@@ -1,6 +1,7 @@
 <script>
     import { fly } from "svelte/transition";
     import { cubicOut } from "svelte/easing";
+import MainHeading from "$lib/mainHeading.svelte";
 
     export const projects = [
         {
@@ -52,7 +53,7 @@
 </script>
 
 <section class="projects">
-    <h1 class="about">Projects</h1>
+    <MainHeading headingTitle="Projects" />
 
     {#each projects as project (project.id)}
         <article in:fly={project.transition}>
@@ -88,6 +89,7 @@
         padding: 16px;
         margin: 16px;
         border-radius: 16px;
+        background: rgba(0, 0, 0, 0.1);
 
         span.dot {
             display: inline-block;

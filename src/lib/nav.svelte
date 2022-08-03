@@ -28,10 +28,21 @@ import { fly } from 'svelte/transition'
     {:else}
         <HamburgerMenu {open} {onClick} />
     {/if}
+
+    {#if open}
+        <ul class="burgerMenuOpen">
+            <li on:click={onClick}><a href="/">Home</a></li>
+            <!-- <li><a href="/about">About</a></li> -->
+            <li on:click={onClick}><a href="/projects">Projects</a></li>
+            <li on:click={onClick}><a href="/experience">Experience</a></li>
+            <li on:click={onClick}><a href="/contact">Contact</a></li>
+        </ul>
+    {/if}
 </nav>
 
 <style lang="scss">
     nav {
+        position: relative;
         display: flex;
         align-items: baseline;
         width: 90vw;
@@ -59,5 +70,13 @@ import { fly } from 'svelte/transition'
         }
     }
 
-   
+   ul.burgerMenuOpen {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 8px;
+    background: var(--color-blackish);
+    list-style-type: none;
+   }
 </style>

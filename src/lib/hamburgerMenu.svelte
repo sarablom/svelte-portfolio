@@ -6,7 +6,7 @@
     }
     
     export let ariaLabel = 'toggle menu'
-    export let width: string | number = 40
+    export let width: string | number = 45
 </script>
   
   <button on:click={onClick} aria-expanded={open} aria-label={ariaLabel}>

@@ -36,5 +36,6 @@ import Button from "../lib/button.svelte";
 .contact-form {
     display: flex;
     flex-direction: column;
+    max-width: 80vw;
 }
 </style>

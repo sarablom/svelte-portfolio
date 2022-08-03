@@ -55,22 +55,22 @@ import MainHeading from "$lib/mainHeading.svelte";
 <section class="projects">
     <MainHeading headingTitle="Projects" />
 
-    {#each projects as project (project.id)}
-        <article in:fly={project.transition}>
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
+    {#each projects as { id, transition, title, description, pageHref, codeHref } (id)}
+        <article in:fly={transition}>
+            <h3>{title}</h3>
+            <p>{description}</p>
             <a
                 class="project-link"
-                href={project.pageHref}
+                href={pageHref}
                 target="_blank"
                 rel="noopener noreferrer"
             >The site
             </a>
             <span class="dot white"></span>
-            {#if (project.codeHref)}
+            {#if (codeHref)}
             <a
             class="project-link"
-            href={project.codeHref}
+            href={codeHref}
             target="_blank"
             rel="noopener noreferrer"
             >The code

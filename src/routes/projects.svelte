@@ -87,9 +87,10 @@ import MainHeading from "$lib/mainHeading.svelte";
     article {
         border: 6px dotted var(--color-aubergine);
         padding: 16px;
-        margin: 16px;
+        margin: 32px;
         border-radius: 16px;
-        background: rgba(0, 0, 0, 0.1);
+        background: var(--color-gray-100);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 
         span.dot {
             display: inline-block;

@@ -5,6 +5,10 @@ import Button from "../lib/button.svelte";
   function onClickHandler() {
     console.log("Button clicked!");
   }
+  
+  let name = "";
+  let email = "";
+  let message = "";
 
 </script>
 <section>
@@ -12,11 +16,11 @@ import Button from "../lib/button.svelte";
     <MainHeading headingTitle="Contact me" />
 
     <form class="contact-form">
-      <label class="label1" for="name">Name</label>
-      <input class="input1" type="text" name="name" id="name" required />
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" required bind:value={name} />
 
-      <label class="label2" for="email">E-mail</label>
-      <input class="input2" type="email" name="email" id="email" required />
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email" required bind:value={email} />
 
       <label class="label3" for="message">Message</label>
       <textarea
@@ -26,6 +30,7 @@ import Button from "../lib/button.svelte";
         form="form"
         cols="30"
         rows="10"
+        bind:value={message}
         required
       ></textarea>
       <Button buttonTitle="Submit" on:click={onClickHandler} />

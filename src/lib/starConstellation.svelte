@@ -8,6 +8,14 @@
     <span class="star"></span>
     <span class="star"></span>
     <span class="star"></span>
+
+    <div class="line line1"></div>
+    <div class="line line2"></div>
+    <div class="line line3"></div>
+    <div class="line line4"></div>
+    <div class="line line5"></div>
+    <div class="line line6"></div>
+    <div class="line line7"></div>
 </div>
 
 <style lang="scss">
@@ -15,6 +23,7 @@
         width: 375px;
         height: 255px;
         position: relative;
+        isolation: isolate;
 
         .star {
             width: 10px;
@@ -75,6 +84,20 @@
             position: absolute;
             bottom: 20px;
             left: 0px;
+        }
+
+        .line {
+            border: 1px solid var(--color-light-peachpuff);
+            z-index: -1;
+        }
+
+        .line1 {
+            position: absolute;
+            bottom: 67px;
+            left: -5px; 
+            width: 125px;
+            transform: rotate(141deg);
+            
         }
     }
 </style>

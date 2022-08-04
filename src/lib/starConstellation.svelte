@@ -16,6 +16,9 @@
     <div class="line line5"></div>
     <div class="line line6"></div>
     <div class="line line7"></div>
+    <div class="line line8"></div>
+    <div class="line line9"></div>
+    <div class="line line10"></div>
 </div>
 
 <style lang="scss">
@@ -64,7 +67,7 @@
 
         span:nth-child(6) {
             position: absolute;
-            top: 245px;
+            top: 244px;
             right: 60px;
         }
 
@@ -98,6 +101,78 @@
             width: 125px;
             transform: rotate(141deg);
             
+        }
+
+        .line2 {
+            position: absolute;
+            bottom: 34px;
+            left: 0; 
+            width: 102px;
+            transform: rotate(168deg);
+        }
+
+        .line3 {
+            position: absolute;
+            bottom: 70px;
+            left: 75px; 
+            width: 60px;
+            transform: rotate(90deg);
+        }
+
+        .line4 {
+            position: absolute;
+            bottom: 26px;
+            right: 67px; 
+            width: 205px;
+            transform: rotate(191deg);
+        }
+
+        .line5 {
+            position: absolute;
+            bottom: 45px;
+            right: 20px; 
+            width: 90px;
+            transform: rotate(90deg);
+        }
+
+        .line6 {
+            position: absolute;
+            bottom: 99px;
+            right: 67px; 
+            width: 205px;
+            transform: rotate(183deg);
+        }
+
+        .line7 {
+            position: absolute;
+            top: 130px;
+            right: 49px; 
+            width: 70px;
+            transform: rotate(234deg);
+        }
+
+        .line8 {
+            position: absolute;
+            top: 80px;
+            right: 70px; 
+            width: 60px;
+            transform: rotate(280deg);
+        }
+
+        .line9 {
+            position: absolute;
+            top: 25px;
+            right: 30px; 
+            width: 70px;
+            transform: rotate(142deg);
+        }
+
+        .line10 {
+            position: absolute;
+            top: 15px;
+            right: 2px; 
+            width: 42px;
+            transform: rotate(45deg);
         }
     }
 </style>

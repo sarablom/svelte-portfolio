@@ -1,9 +1,10 @@
-<script>
+<script lang="ts">
 import MainHeading from "$lib/mainHeading.svelte";
 import Button from "../lib/button.svelte";
 
-  function onClickHandler() {
-    console.log("Button clicked!");
+  function onClickHandler(e: any) {
+    e.preventDefault();
+    console.log("Button clicked!", name, email, message);
   }
   
   let name = "";
@@ -15,7 +16,7 @@ import Button from "../lib/button.svelte";
 
     <MainHeading headingTitle="Contact me" />
 
-    <form class="contact-form">
+    <form class="contact-form" on:submit={onClickHandler}>
       <label for="name">Name</label>
       <input type="text" name="name" id="name" required bind:value={name} />
 
@@ -33,7 +34,7 @@ import Button from "../lib/button.svelte";
         bind:value={message}
         required
       ></textarea>
-      <Button buttonTitle="Submit" on:click={onClickHandler} />
+      <Button buttonTitle="Submit" />
     </form>
 </section>
 

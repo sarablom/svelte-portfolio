@@ -37,16 +37,12 @@ import MainHeading from "$lib/mainHeading.svelte";
       
       <h1 class="edu">Education<span class="dot"></span></h1>
       
-      <dl id="utbildning">
-        <dt>Highschool</dt>
-        <dd>Social sience at Strömstad Highschool</dd>
-        <dt>University</dt>
-        <dd>Bachelor in leadership, quality and change-management at Uppsala University</dd>
-        <dd>Master in sustainable urban development at Malmö University</dd>
-        <dt>Higher Vocational Education</dt>
-        <dd>Frontend development with special orientation towards Web security at Jensens Higher Vocational
-          Education</dd>
-        </dl>
+      <ul>
+        <li>Frontend development with special orientation towards Web security at Jensens Higher Vocational
+          Education</li>
+        <li>Bachelor in leadership, quality and change-management at Uppsala University</li>
+        <li>Master in sustainable urban development at Malmö University</li>
+      </ul>
       </section>
 
 <style>

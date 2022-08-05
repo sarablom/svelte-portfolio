@@ -44,4 +44,18 @@ import Button from "../lib/button.svelte";
     flex-direction: column;
     max-width: 80vw;
 }
+label {
+  font-size: var(--font-size-s);
+}
+
+input {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+input[type=text],
+input[type=email] {
+    margin-bottom: 32px;
+    height: 48px;
+    border-radius: 4px;
+}
 </style>

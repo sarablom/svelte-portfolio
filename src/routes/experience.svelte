@@ -45,6 +45,12 @@ import MainHeading from "$lib/mainHeading.svelte";
       </ul>
       </section>
 
-<style>
+<style lang="scss">
+  .experience {
+    max-width: 600px;
 
+    p{
+      margin-bottom: 32px;
+    }
+  }
 </style>

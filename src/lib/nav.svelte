@@ -16,7 +16,7 @@ import { fly } from 'svelte/transition'
 <svelte:window bind:innerWidth />
 
 <nav>
-    <h3>Sara Blom</h3>
+    <h3><a href="/">Sara Blom</a></h3>
     {#if innerWidth > 600}
     <ol>
         <li><a href="/">Home</a></li>
@@ -51,6 +51,7 @@ import { fly } from 'svelte/transition'
     h3 {
         margin-right: auto;
         font-family: 'Inspiration', cursive;
+        font-size: var(--font-size-l);
     }
 
     ol {

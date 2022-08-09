@@ -22,7 +22,7 @@
         transition: transform 250ms;
 
         &:hover {
-            /* background: linear-gradient(90deg, rgba(148,98,143,1) 23%, rgba(139,71,93,1) 100%); */
+            background: linear-gradient(90deg, rgba(148,98,143,1) 23%, rgba(139,71,93,1) 100%);
             transform: scale(1.02);
         }
     }

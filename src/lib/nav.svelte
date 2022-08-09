@@ -16,7 +16,7 @@ import { fly } from 'svelte/transition'
 <svelte:window bind:innerWidth />
 
 <nav>
-    <h3><a href="/">Sara Blom</a></h3>
+    <h3><a href="/" class="no-underline">Sara Blom</a></h3>
     {#if innerWidth > 600}
     <ol>
         <li><a href="/">Home</a></li>
@@ -49,6 +49,7 @@ import { fly } from 'svelte/transition'
         max-width: var(--max-width);
     }
     h3 {
+        display: inline;
         margin-right: auto;
         font-family: 'Inspiration', cursive;
         font-size: var(--font-size-l);
@@ -61,6 +62,12 @@ import { fly } from 'svelte/transition'
 
     li {
         padding: 0 16px;
+        transition: ease-in 0.2s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+        
     }
 
     a {
@@ -69,6 +76,10 @@ import { fly } from 'svelte/transition'
 
         &:hover {
             text-decoration: underline;
+        }
+
+        &.no-underline {
+            text-decoration: none;
         }
     }
 

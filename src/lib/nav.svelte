@@ -50,6 +50,7 @@ import { fly } from 'svelte/transition'
     }
     h3 {
         margin-right: auto;
+        font-family: 'Inspiration', cursive;
     }
 
     ol {

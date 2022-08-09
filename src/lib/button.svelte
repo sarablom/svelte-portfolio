@@ -19,6 +19,7 @@
         font-weight: 600;
         cursor: pointer;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        transition: transform 250ms;
 
         &:hover {
             /* background: linear-gradient(90deg, rgba(148,98,143,1) 23%, rgba(139,71,93,1) 100%); */

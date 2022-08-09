@@ -13,7 +13,6 @@ import Button from "../lib/button.svelte";
 
 </script>
 <section>
-
     <MainHeading headingTitle="Contact me" />
 
     <form class="contact-form" on:submit={onClickHandler}>
@@ -39,10 +38,15 @@ import Button from "../lib/button.svelte";
 </section>
 
 <style>
+
+  section {
+    max-width: 80vw;
+  }
+
 .contact-form {
     display: flex;
     flex-direction: column;
-    max-width: 80vw;
+    max-width: min(600px, 100%);
 }
 label {
   font-size: var(--font-size-s);

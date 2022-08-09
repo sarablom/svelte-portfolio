@@ -38,10 +38,10 @@ import MainHeading from "$lib/mainHeading.svelte";
       <h1 class="edu">Education<span class="dot"></span></h1>
       
       <ul>
-        <li>Frontend development with special orientation towards Web security at Jensens Higher Vocational
+            <li><span class="circle"></span> Frontend development with special orientation towards Web security at Jensens Higher Vocational
           Education</li>
-        <li>Bachelor in leadership, quality and change-management at Uppsala University</li>
-        <li>Master in sustainable urban development at Malmö University</li>
+        <li><span class="circle"></span> Bachelor in leadership, quality and change-management at Uppsala University</li>
+        <li><span class="circle"></span> Master in sustainable urban development at Malmö University</li>
       </ul>
       </section>
 
@@ -53,4 +53,23 @@ v<style lang="scss">
       margin-bottom: 32px;
     }
   }
+      
+      ul {
+      list-style-type: none;
+      }
+      
+  .circle {
+      width: 10px;
+      height: 10px;
+      border: 1px solid;
+      border-radius: 50%;
+      background-image: conic-gradient(
+      deeppink 0%,
+      deeppink 33.3%,
+      gold 33.4%,
+      gold 66.6%,
+      slateblue 66.7%,
+      slateblue 100%
+      );
+   }
 </style>

@@ -24,10 +24,13 @@
   }
 
   header {
+    width: 100%;
     min-height: 5rem;
     display: flex;
     justify-content: center;
     padding: 32px;
+    background-color: var(--color-gray-100);
+    box-shadow: 2.6px 5.3px 5.3px hsl(0deg 0% 0% / 0.42);
   }
 
   main {

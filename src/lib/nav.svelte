@@ -16,28 +16,28 @@ import { fly } from 'svelte/transition'
 <svelte:window bind:innerWidth />
 
 <nav>
-    <h3><a href="/" class="no-underline">Sara Blom</a></h3>
-    {#if innerWidth > 600}
-    <ol>
-        <li><a href="/">Home</a></li>
-        <!-- <li><a href="/about">About</a></li> -->
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/experience">Experience</a></li>
-        <li><a href="/contact">Contact</a></li>
-    </ol>
-    {:else}
-        <HamburgerMenu {open} {onClick} />
-    {/if}
-
-    {#if open}
-        <ul class="burgerMenuOpen">
-            <li on:click={onClick}><a href="/">Home</a></li>
+        <h3><a href="/" class="no-underline">Sara Blom</a></h3>
+        {#if innerWidth > 600}
+        <ol>
+            <li><a href="/">Home</a></li>
             <!-- <li><a href="/about">About</a></li> -->
-            <li on:click={onClick}><a href="/projects">Projects</a></li>
-            <li on:click={onClick}><a href="/experience">Experience</a></li>
-            <li on:click={onClick}><a href="/contact">Contact</a></li>
-        </ul>
-    {/if}
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/experience">Experience</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ol>
+        {:else}
+            <HamburgerMenu {open} {onClick} />
+        {/if}
+    
+        {#if open}
+            <ul class="burgerMenuOpen">
+                <li on:click={onClick}><a href="/">Home</a></li>
+                <!-- <li><a href="/about">About</a></li> -->
+                <li on:click={onClick}><a href="/projects">Projects</a></li>
+                <li on:click={onClick}><a href="/experience">Experience</a></li>
+                <li on:click={onClick}><a href="/contact">Contact</a></li>
+            </ul>
+        {/if}
 </nav>
 
 <style lang="scss">
@@ -45,9 +45,11 @@ import { fly } from 'svelte/transition'
         position: relative;
         display: flex;
         align-items: baseline;
-        width: 90vw;
+        width: 100%;
+        padding: 0 32px;
         max-width: var(--max-width);
     }
+
     h3 {
         display: inline;
         margin-right: auto;
@@ -89,7 +91,7 @@ import { fly } from 'svelte/transition'
     position: absolute;
     top: 80px;
     right: 8px;
-    background: var(--color-blackish);
+    background-color: var(--color-gray-100);
     list-style-type: none;
    }
 </style>

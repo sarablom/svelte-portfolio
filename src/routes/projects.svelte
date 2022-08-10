@@ -90,7 +90,7 @@ import MainHeading from "$lib/mainHeading.svelte";
         margin: 32px 0;
         border-radius: 16px;
         background: var(--color-gray-100);
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        box-shadow: 3.8px 7.5px 7.5px hsl(0deg 0% 0% / 0.38);
         max-width: 600px;
 
         span.dot {

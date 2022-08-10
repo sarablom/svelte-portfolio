@@ -40,7 +40,10 @@ import Button from "../lib/button.svelte";
 <style>
 
   section {
-    max-width: 80vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
 .contact-form {

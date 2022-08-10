@@ -37,6 +37,7 @@
     flex: 1;
     margin: 0 auto;
     padding: 32px;
+    width: 100%;
     max-width: var(--max-width);
   }
 </style>

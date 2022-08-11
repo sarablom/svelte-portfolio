@@ -16,6 +16,8 @@ import memoji from "$lib/assets/memoji.jpg";
     .wrapper {
         display: flex;
         gap: 32px;
+        align-items: center;
+        justify-content: space-around;
     }
 
     img {
@@ -30,7 +32,7 @@ import memoji from "$lib/assets/memoji.jpg";
         }
     }
 
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 670px) {
         .wrapper {
         flex-direction: column-reverse;
         align-items: center;

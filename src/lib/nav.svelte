@@ -17,7 +17,7 @@ import { fly } from 'svelte/transition'
 
 <nav>
         <h3><a href="/" class="no-underline">Sara Blom</a></h3>
-        {#if innerWidth > 600}
+        {#if innerWidth > 670}
         <ol>
             <li><a href="/">Home</a></li>
             <!-- <li><a href="/about">About</a></li> -->

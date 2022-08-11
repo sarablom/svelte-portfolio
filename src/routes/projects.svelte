@@ -84,10 +84,17 @@ import MainHeading from "$lib/mainHeading.svelte";
 </section>
 
 <style lang="scss">
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+        margin-bottom: 32px;
+    }
+
     article {
         border: 6px dotted var(--color-aubergine);
         padding: 16px;
-        margin: 32px 0;
         border-radius: 16px;
         background: var(--color-gray-100);
         box-shadow: 3.8px 7.5px 7.5px hsl(0deg 0% 0% / 0.38);

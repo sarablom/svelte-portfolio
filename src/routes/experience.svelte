@@ -1,7 +1,5 @@
 <script>
-import MainHeading from "$lib/mainHeading.svelte";
-
-
+  import MainHeading from "$lib/mainHeading.svelte";
 </script>
 
 <section class="experience">
@@ -47,21 +45,21 @@ import MainHeading from "$lib/mainHeading.svelte";
 
 <style lang="scss">
   .experience {
-    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 32px; */
+    align-items: center;
+    margin-bottom: 32px;
 
       p {
+        max-width: 600px;
         margin-bottom: 32px;
       }
     }
       
     ul {
-      list-style-image: conic-gradient(
-      var(--color-gray-50) 0%,
-      var(--color-gray-50) 33.3%,
-      var(--color-dark-peachpuff) 33.4%,
-      var(--color-dark-peachpuff) 66.6%,
-      var(--color-aubergine) 66.7%,
-      var(--color-aubergine) 100%
-      );
+      list-style-type: "❤ ";
+      max-width: 600px;
+      padding-left: 20px;
     }
 </style>

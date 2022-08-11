@@ -1,11 +1,6 @@
 <script lang="ts">
 import MainHeading from "$lib/mainHeading.svelte";
 import Button from "../lib/button.svelte";
-
-  function onClickHandler(e: any) {
-    e.preventDefault();
-    console.log("Button clicked!", name, email, message);
-  }
   
   let name = "";
   let email = "";
@@ -15,7 +10,12 @@ import Button from "../lib/button.svelte";
 <section>
     <MainHeading headingTitle="Contact me" />
 
-    <form class="contact-form" on:submit={onClickHandler}>
+    <form 
+      class="contact-form" 
+      action="https://formspree.io/f/mqkgjykq" 
+      method="POST"
+      id="form"
+    >
       <label for="name">Name</label>
       <input type="text" name="name" id="name" required bind:value={name} />
 
@@ -27,6 +27,7 @@ import Button from "../lib/button.svelte";
         class="textarea"
         id="message"
         name="message"
+        for="message"
         form="form"
         cols="30"
         rows="10"

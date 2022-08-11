@@ -16,14 +16,14 @@ import { fly } from 'svelte/transition'
 <svelte:window bind:innerWidth />
 
 <nav>
-        <h3><a href="/" class="no-underline">Sara Blom</a></h3>
+        <h3><a href="/">Sara Blom</a></h3>
         {#if innerWidth > 670}
         <ol>
-            <li><a href="/">Home</a></li>
+            <li><a href="/" class="underline">Home</a></li>
             <!-- <li><a href="/about">About</a></li> -->
-            <li><a href="/projects">Projects</a></li>
-            <li><a href="/experience">Experience</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/projects" class="underline">Projects</a></li>
+            <li><a href="/experience" class="underline">Experience</a></li>
+            <li><a href="/contact" class="underline">Contact</a></li>
         </ol>
         {:else}
             <HamburgerMenu {open} {onClick} />
@@ -31,11 +31,11 @@ import { fly } from 'svelte/transition'
     
         {#if open}
             <ul class="burgerMenuOpen">
-                <li on:click={onClick}><a href="/">Home</a></li>
+                <li on:click={onClick}><a href="/" class="underline">Home</a></li>
                 <!-- <li><a href="/about">About</a></li> -->
-                <li on:click={onClick}><a href="/projects">Projects</a></li>
-                <li on:click={onClick}><a href="/experience">Experience</a></li>
-                <li on:click={onClick}><a href="/contact">Contact</a></li>
+                <li on:click={onClick}><a href="/projects" class="underline">Projects</a></li>
+                <li on:click={onClick}><a href="/experience" class="underline">Experience</a></li>
+                <li on:click={onClick}><a href="/contact" class="underline">Contact</a></li>
             </ul>
         {/if}
 </nav>
@@ -72,16 +72,38 @@ import { fly } from 'svelte/transition'
         
     }
 
-    a {
-        text-decoration: none;
+    a.underline {
         color: inherit;
+        background-image: linear-gradient(
+            to right, 
+            var(--color-aubergine), 
+            var(--color-dark-peachpuff) 50%,
+            var(--color-dark-peachpuff) 50%
+            );
+            background-size: 200% 100%;
+            background-position: -100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            transition: all 0.3s ease-in-out;
 
-        &:hover {
-            text-decoration: underline;
+        &:before {
+            content: '';
+            background: var(--color-aubergine);
+            display: block;
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 0;
+            height: 3px;
+            transition: all 0.3s ease-in-out;
         }
 
-        &.no-underline {
-            text-decoration: none;
+        &:hover {
+            background-position: 0;
+        }
+
+        &:hover::before {
+            width: 100%;
         }
     }
 
@@ -89,9 +111,11 @@ import { fly } from 'svelte/transition'
     display: flex;
     flex-direction: column;
     position: absolute;
+    gap: 16px;
     top: 80px;
-    right: 8px;
+    right: -32px;
     background-color: var(--color-gray-100);
     list-style-type: none;
+    padding: 32px 32px 64px 100vw;
    }
 </style>

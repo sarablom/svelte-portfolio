@@ -93,10 +93,16 @@ import MainHeading from "$lib/mainHeading.svelte";
     }
 
     article {
-        border: 6px dotted var(--color-aubergine);
+        /* border: 6px dotted var(--color-aubergine); */
         padding: 16px;
         border-radius: 16px;
-        background: var(--color-gray-100);
+        background-image: linear-gradient(
+            to right, 
+            var(--color-gray-100), 
+            var(--color-gray-50),
+            var(--color-aubergine)
+            );
+        /* background: var(--color-gray-100); */
         box-shadow: 3.8px 7.5px 7.5px hsl(0deg 0% 0% / 0.38);
         max-width: 600px;
 

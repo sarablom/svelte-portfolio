@@ -3,7 +3,8 @@
     
 </script>
 
-<button class="button" on:click>{buttonTitle}</button>
+<button 
+    class="button" on:click type="submit">{buttonTitle}</button>
 
 <style lang="scss">
     button {

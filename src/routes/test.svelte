@@ -8,7 +8,6 @@
         if (response.ok) {
             return {
                 props: {
-                    // guides: guides as Project[],
                     guides
                 }
             }
@@ -22,12 +21,7 @@
 </script>
 
 <script lang="ts"> 
-    type Guide = {
-        userId: number;
-        id: number;
-        title: string;
-        body: string;
-    }
+    import type { Guide } from 'src/models/guide';
   
     export let guides: Guide[];
   </script>

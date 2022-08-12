@@ -6,10 +6,6 @@
         "pageHref": "https://vobbiz-frontend.azurewebsites.net/",
         "codeHref": "",
         "transition": {
-            "delay": 0,
-            "duration": 400,
-            "easing": "cubicOut",
-            "opacity": 0.5,
             "x": -100,
             "y": -100
         }
@@ -21,10 +17,6 @@
         "pageHref": "https://stillsamhetens-spa.herokuapp.com/",
         "codeHref": "https://github.com/sarablom/spa-shop",
         "transition": {
-            "delay": 0,
-            "duration": 400,
-            "easing": "cubicOut",
-            "opacity": 0.5,
             "x": 100,
             "y": -100
         }
@@ -36,10 +28,6 @@
         "pageHref": "https://instablam-pwa.netlify.app/",
         "codeHref": "https://github.com/sarablom/pwa-instablam",
         "transition": {
-            "delay": 0,
-            "duration": 400,
-            "easing": "cubicOut",
-            "opacity": 0.5,
             "x": 100,
             "y": 100
         }

@@ -5,10 +5,6 @@ export type Project = {
     pageHref: string;
     codeHref: string;
     transition: {
-        delay: number;
-        duration: number;
-        easing: string;
-        opacity: number;
         x: number;
         y: number;
     };

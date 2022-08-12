@@ -1,43 +1,35 @@
 <script lang="ts">
-    // import { MenuIcon } from 'svelte-feather-icons';
-
-import HamburgerMenu from "./hamburgerMenu.svelte";
-import { fly } from 'svelte/transition'
-    // export let menuOpen = false;
-    export let open = false
-  export let onClick = (): void => {
-    open = !open
-  }
-
-    let innerWidth = 0
-
+    import HamburgerMenu from "./hamburgerMenu.svelte";
+    export let open = false;
+    let innerWidth = 0;
+    export let onClick = (): void => {
+        open = !open
+    }
 </script>
 
 <svelte:window bind:innerWidth />
 
 <nav>
-        <h3><a href="/">Sara Blom</a></h3>
-        {#if innerWidth > 670}
-        <ol>
-            <li><a href="/" class="underline">Home</a></li>
-            <!-- <li><a href="/about">About</a></li> -->
-            <li><a href="/projects" class="underline">Projects</a></li>
-            <li><a href="/experience" class="underline">Experience</a></li>
-            <li><a href="/contact" class="underline">Contact</a></li>
-        </ol>
-        {:else}
-            <HamburgerMenu {open} {onClick} />
-        {/if}
-    
-        {#if open}
-            <ul class="burgerMenuOpen">
-                <li on:click={onClick}><a href="/" class="underline">Home</a></li>
-                <!-- <li><a href="/about">About</a></li> -->
-                <li on:click={onClick}><a href="/projects" class="underline">Projects</a></li>
-                <li on:click={onClick}><a href="/experience" class="underline">Experience</a></li>
-                <li on:click={onClick}><a href="/contact" class="underline">Contact</a></li>
-            </ul>
-        {/if}
+    <h3><a href="/">Sara Blom</a></h3>
+    {#if innerWidth > 670}
+    <ol>
+        <li><a href="/" class="underline">Home</a></li>
+        <li><a href="/projects" class="underline">Projects</a></li>
+        <li><a href="/experience" class="underline">Experience</a></li>
+        <li><a href="/contact" class="underline">Contact</a></li>
+    </ol>
+    {:else}
+        <HamburgerMenu {open} {onClick} />
+    {/if}
+
+    {#if open}
+        <ul class="burgerMenuOpen">
+            <li on:click={onClick}><a href="/" class="underline">Home</a></li>
+            <li on:click={onClick}><a href="/projects" class="underline">Projects</a></li>
+            <li on:click={onClick}><a href="/experience" class="underline">Experience</a></li>
+            <li on:click={onClick}><a href="/contact" class="underline">Contact</a></li>
+        </ul>
+    {/if}
 </nav>
 
 <style lang="scss">
@@ -82,7 +74,9 @@ import { fly } from 'svelte/transition'
             );
             background-size: 200% 100%;
             background-position: -100%;
+            background-clip: text;
             -webkit-background-clip: text;
+            color: transparent;
             -webkit-text-fill-color: transparent;
             transition: all 0.3s ease-in-out;
 

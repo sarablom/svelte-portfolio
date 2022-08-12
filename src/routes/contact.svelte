@@ -1,6 +1,6 @@
 <script lang="ts">
-import MainHeading from "$lib/mainHeading.svelte";
-import Button from "../lib/button.svelte";
+  import MainHeading from "$lib/mainHeading.svelte";
+  import Button from "$lib/button.svelte";
   
   let name = "";
   let email = "";
@@ -39,7 +39,6 @@ import Button from "../lib/button.svelte";
 </section>
 
 <style>
-
   section {
     width: 100%;
     display: flex;
@@ -47,23 +46,23 @@ import Button from "../lib/button.svelte";
     align-items: center;
   }
 
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    max-width: min(600px, 100%);
-}
-label {
-  font-size: var(--font-size-s);
-}
+  .contact-form {
+      display: flex;
+      flex-direction: column;
+      max-width: min(600px, 100%);
+  }
+  label {
+    font-size: var(--font-size-s);
+  }
 
-input {
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-}
+  input {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
 
-input[type=text],
-input[type=email] {
-    margin-bottom: 32px;
-    height: 48px;
-    border-radius: 4px;
-}
+  input[type=text],
+  input[type=email] {
+      margin-bottom: 32px;
+      height: 48px;
+      border-radius: 4px;
+  }
 </style>

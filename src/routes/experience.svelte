@@ -58,7 +58,6 @@
     }
       
     ul {
-      list-style-type: "❤ ";
       max-width: 600px;
       padding-left: 20px;
     }

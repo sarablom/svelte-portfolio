@@ -25,6 +25,8 @@
 
 <style lang="scss">
     footer {
+        display: flex;
+        justify-content: center;
         width: 100%;
         background-color: var(--color-gray-100);
         padding: 32px;
@@ -35,6 +37,7 @@
         align-items: baseline;
         justify-content: space-between;
         min-height: 3rem;
+        width: 100%;
         max-width: var(--max-width);
     }
 

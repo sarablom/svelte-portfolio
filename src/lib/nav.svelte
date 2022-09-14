@@ -86,7 +86,7 @@
             display: block;
             position: absolute;
             bottom: -3px;
-            left: 0;
+            right: 5;
             width: 0;
             height: 3px;
             transition: all 0.3s ease-in-out;
@@ -97,7 +97,7 @@
         }
 
         &:hover::before {
-            width: 100%;
+            width: 75%;
         }
     }
 

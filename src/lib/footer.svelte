@@ -30,6 +30,10 @@
         width: 100%;
         background-color: var(--color-gray-100);
         padding: 32px;
+
+        @media screen and (max-width: 800px) {        
+            padding: 16px;
+        }
     }
 
     .wrapper {

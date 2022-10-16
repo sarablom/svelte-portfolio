@@ -15,7 +15,7 @@
     <Footer />
 </div>
 
-<style>
+<style lang="scss">
   .wrapper {
     display: flex;
     flex-direction: column;
@@ -31,6 +31,10 @@
     padding: 32px;
     background-color: var(--color-gray-100);
     box-shadow: 2.6px 5.3px 5.3px hsl(0deg 0% 0% / 0.42);
+
+    @media screen and (max-width: 800px) {        
+        padding: 16px;
+    }
   }
 
   main {

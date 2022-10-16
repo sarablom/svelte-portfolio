@@ -40,6 +40,10 @@
         width: 100%;
         padding: 0 32px;
         max-width: var(--max-width);
+
+        @media screen and (max-width: 800px) {        
+        padding: 0 16px;
+    }
     }
 
     h3 {

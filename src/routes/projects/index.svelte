@@ -33,7 +33,8 @@
 <section class="projects">
     <MainHeading headingTitle="Projects" />
 
-    {#each projects as { id, transition, title, description, pageHref, codeHref } (id)}
+    {#each projects as { id, transition, title, description } (id)}
+    <a href={`/projects/${id}`}>
         <article in:fly={{
             delay: 0,
             duration: 400,
@@ -43,28 +44,9 @@
             }}>
             <h3>{title}</h3>
             <p>{description}</p>
-            <a
-                class="project-link"
-                href={pageHref}
-                target="_blank"
-                rel="noopener noreferrer"
-            >The site
-            </a>
-            <span class="dot white"></span>
-            {#if (codeHref)}
-            <a
-            class="project-link"
-            href={codeHref}
-            target="_blank"
-            rel="noopener noreferrer"
-            >The code
-            </a>
-            {:else}
-            <span class="no-code">Not allowed to show this code</span>
-            {/if}
         </article>
+    </a>
     {/each}
-
 </section>
 
 <style lang="scss">
@@ -83,26 +65,24 @@
         box-shadow: 3.8px 7.5px 7.5px hsl(0deg 0% 0% / 0.38);
         max-width: 600px;
 
-        span.dot {
-            display: inline-block;
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            background-color: var(--color-dark-peachpuff);
+        &:hover {
+            transform: scale(1.01);
+        }
+
+        p {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            overflow: hidden;
+            margin-bottom: 1em;
         }
     }
 
     a {
         padding: 4px 2px;
-        
-    &:hover {
-        text-decoration: underline;
-    }
 
     &:focus {
         outline: 1px solid var(--color-aubergine);
     }
-}
-
-    
+}  
 </style>

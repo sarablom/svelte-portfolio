@@ -2,7 +2,7 @@
 	{
 		"id": 1,
 		"title": "Vobbiz",
-		"description": "This is my first real project that is going live in the fall of 2022. I've been part of a team of three people and we've done the project from scratch in three months time. We've used React with TypeScript on the frontend and NodeJS with Express on the backend. We made the prototype and wireframes in Figma. Our database is MongoDB, but we don't store a lot of data, since we've mainly been working with external API:s. This project includes 6 external API:s! I really learned a lot, and I'm so proud of the end result.",
+		"description": "My first paid project. I've been part of a team of three people and we've done the project from scratch in three months time. We've used React with TypeScript on the frontend and NodeJS with Express on the backend. We made the prototype and wireframes in Figma. Our database is MongoDB, but we don't store a lot of data, since we've mainly been working with external API:s. This project includes 6 external API:s! I really learned a lot, and I'm so proud of the end result. You need to become a customer to get the full experience.",
 		"techniques": [
 			"React",
 			"TypeScript",
@@ -11,7 +11,7 @@
 			"MongoDB",
 			"Azure"
 		],
-		"pageHref": "https://vobbiz-frontend.azurewebsites.net/",
+		"pageHref": "https://privat.vobbiz.se/",
 		"codeHref": "",
 		"transition": {
 			"x": -100,
@@ -21,7 +21,7 @@
 	{
 		"id": 2,
 		"title": "Stillsamhetens Spa",
-		"description": "A fullstack application built with React, TypeScript, Node, Express and MongoDB. This application is built with Test Driven Development (TDD).",
+		"description": "A fullstack application built with React, TypeScript, Node, Express and MongoDB. This application is also built with Test Driven Development (TDD) and it's deeployed to Heroku with Docker. It's the first fullstack application I've built, and I really enjoyed the process. I also made the logo myself and choose a nature color theme. It was also my first time writing TypeScript, and it was frustrating then, but now I've really come to love it.",
 		"techniques": [
 			"React",
 			"TypeScript",
@@ -41,7 +41,7 @@
 	{
 		"id": 3,
 		"title": "Instablam",
-		"description": "An application where you can take photos and save them to a gallery. The photos are saved in LocalStorage. The focus with building this app has been with interacting with the camera and GPS of the device.",
+		"description": "An application where you can take photos and save them to a gallery. The photos are saved in LocalStorage. The focus with building this app has been interacting with the camera and GPS of the users device. The interaction with camera is done with navigator.mediaDevice.getUserMedia API and the location tracker is done by the navigator.geolocation.getCurrentPosition API. On tablets and mobile devices the users are able to flip the screen of the camera. The app is also a PWA, which makes it app friendly. This really was a challenging project for me, but I learned so much!",
 		"techniques": ["React", "JavaScript", "Figma", "Netlify"],
 		"pageHref": "https://instablam-pwa.netlify.app/",
 		"codeHref": "https://github.com/sarablom/pwa-instablam",

@@ -63,10 +63,11 @@
         border-radius: 16px;
         background: var(--color-gray-100); 
         box-shadow: 3.8px 7.5px 7.5px hsl(0deg 0% 0% / 0.38);
-        max-width: 600px;
+        max-width: min(600px, 90%);
+        width: 90%;
 
         &:hover {
-            transform: scale(1.01);
+            transform: scale(1.02);
         }
 
         p {
@@ -74,6 +75,7 @@
             -webkit-box-orient: vertical;
             -webkit-line-clamp: 3;
             overflow: hidden;
+            word-break: break-word;
             margin-bottom: 1em;
         }
     }

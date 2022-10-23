@@ -5,19 +5,36 @@
 <section class="experience">
       <MainHeading headingTitle="Experience" />
       <p>
-        I'm a fullstack developer, with main focus on frontend. My main
-        languages are JavaScript and TypeScript and I've mainly been working
-        with React, NodeJS and Express. I have experince with NoSQL and SQL
-        databases like MongoDB, Firebase and MySQL. I've done som prototyping
-        in both Adobe XD and Figma. I also have great experience with Git and
-        GitHub. I've been working in Scrum and Kanban teams for several years,
-        so I know a lot about agile team work. If I may say it myself, I'm
-        great at keeping a good relationship with both customers and team
-        members.
+        I'm a fullstack developer, with focus on frontend. My main
+        languages are <span>JavaScript</span> and <span>TypeScript</span> and I've mainly been working
+        with <span>React, NodeJS</span> and <span>Express</span>. I have experince with <span>NoSQL</span> and 
+        <span>SQL databases</span> like <span>MongoDB, Firebase</span> and <span>SQLite</span>. 
       </p>
 
+      <p> 
+        Other teqniques I've been working with are:
+      </p>
+        <ul>
+          <li>Adobe XD</li>
+          <li>Figma</li>
+          <li>Azure</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>Scrum</li>
+          <li>Kanban</li>
+          <li></li>
+        </ul>  
+       
       <p>
-        I previosly worked in the transport sector for 15 years. I started as
+        I've been working in Scrum and Kanban 
+        teams for several years,so I know a lot about agile team work. If I may 
+        say it myself, I'm great at keeping a good relationship with both customers 
+        and team members.
+      </p>
+      
+
+      <p>
+        I previously worked in the transport sector for 15 years. I started as
         a busdriver, then I managed the bus fleet. After that I worked in the
         trafic controll, to help make sure that all traffic ran smoothly. Then
         I started working for the head of public transport in my region called
@@ -27,7 +44,7 @@
       <p>
         In between my different work positions I've also completed a couple of
         educations. I have a bachelor degree in learship and change
-        management. Even though I figured at I didn't want to be a company
+        management. Even though I figured out I didn't want to be a company
         leader, the education made me grow a lot as a person, and I think it
         made me a better employee, with a wider perspective of organizational
         issues.
@@ -36,10 +53,11 @@
       <h1 class="edu">Education<span class="dot"></span></h1>
       
       <ul>
-        <li>Frontend development with special orientation towards Web security at Jensens Higher Vocational
-          Education</li>
-        <li>Bachelor in leadership, quality and change-management at Uppsala University</li>
+        <li>
+          Frontend development with special orientation towards Web security at Jensens Higher Vocational Education
+        </li>
         <li>Master in sustainable urban development at Malmö University</li>
+        <li>Bachelor in leadership, quality and change-management at Uppsala University</li>
       </ul>
       </section>
 
@@ -47,7 +65,6 @@
   .experience {
     display: flex;
     flex-direction: column;
-    /* gap: 32px; */
     align-items: center;
     margin-bottom: 32px;
 
@@ -55,10 +72,25 @@
         max-width: 600px;
         margin-bottom: 32px;
       }
-    }
-      
+
+      span {
+        color: var(--color-checked);
+      }
+
     ul {
-      max-width: 600px;
-      padding-left: 20px;
-    }
+        max-width: 600px;
+        padding-left: 20px;
+  
+        li {
+        list-style: star;
+      }
+      }
+  
+      @counter-style star {
+      system: cyclic;
+      symbols: \2606;
+      suffix: " ";
+      }
+  }
+
 </style>

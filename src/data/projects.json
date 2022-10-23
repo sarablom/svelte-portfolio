@@ -21,7 +21,7 @@
 	{
 		"id": 2,
 		"title": "Stillsamhetens Spa",
-		"description": "A fullstack application built with React, TypeScript, Node, Express and MongoDB. This application is also built with Test Driven Development (TDD) and it's deeployed to Heroku with Docker. It's the first fullstack application I've built, and I really enjoyed the process. I also made the logo myself and choose a nature color theme. It was also my first time writing TypeScript, and it was frustrating then, but now I've really come to love it.",
+		"description": "A fullstack application built with React, TypeScript, Node, Express and MongoDB. This application is also built with Test Driven Development (TDD) and it's deployed to Heroku with Docker. It's the first fullstack application I've built, and I really enjoyed the process. I also made the logo myself and chose a nature color theme. It was also my first time writing TypeScript, and it was frustrating then, but now I've really come to love it.",
 		"techniques": [
 			"React",
 			"TypeScript",

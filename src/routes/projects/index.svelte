@@ -34,18 +34,18 @@
     <MainHeading headingTitle="Projects" />
 
     {#each projects as { id, transition, title, description } (id)}
+    <article in:fly={{
+        delay: 0,
+        duration: 400,
+        easing: cubicOut, 
+        opacity: 0.5,
+        ...transition, 
+    }}>
     <a href={`/projects/${id}`}>
-        <article in:fly={{
-            delay: 0,
-            duration: 400,
-            easing: cubicOut, 
-            opacity: 0.5,
-            ...transition, 
-            }}>
             <h3>{title}</h3>
             <p>{description}</p>
+        </a>
         </article>
-    </a>
     {/each}
 </section>
 
@@ -63,8 +63,8 @@
         border-radius: 16px;
         background: var(--color-gray-100); 
         box-shadow: 3.8px 7.5px 7.5px hsl(0deg 0% 0% / 0.38);
-        max-width: min(600px, 90%);
         width: 90%;
+        max-width: min(600px, 90%);
 
         &:hover {
             transform: scale(1.02);
@@ -78,13 +78,13 @@
             word-break: break-word;
             margin-bottom: 1em;
         }
-    }
-
-    a {
-        padding: 4px 2px;
-
-    &:focus {
-        outline: 1px solid var(--color-aubergine);
+        
+            a {
+                padding: 4px 2px;
+        
+            &:focus {
+                outline: 1px solid var(--color-aubergine);
+            }
     }
 }  
 </style>

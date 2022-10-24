@@ -12,7 +12,7 @@
       </p>
 
       <p> 
-        Other teqniques I've been working with are:
+        Other teqniques I've been working with are: 
       </p>
         <ul>
           <li>Adobe XD</li>
@@ -22,7 +22,6 @@
           <li>GitHub</li>
           <li>Scrum</li>
           <li>Kanban</li>
-          <li></li>
         </ul>  
        
       <p>
@@ -65,11 +64,11 @@
   .experience {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
     margin-bottom: 32px;
+    max-width: 600px;
 
       p {
-        max-width: 600px;
         margin-bottom: 32px;
       }
 
@@ -77,9 +76,11 @@
         color: var(--color-checked);
       }
 
+    }
     ul {
         max-width: 600px;
         padding-left: 20px;
+        margin-bottom: 32px;
   
         li {
         list-style: star;
@@ -91,6 +92,5 @@
       symbols: \2606;
       suffix: " ";
       }
-  }
-
+    
 </style>

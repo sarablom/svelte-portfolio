@@ -21,6 +21,7 @@
         gap: 32px;
         align-items: center;
         justify-content: space-around;
+        height: min(50vh, 500px);
     }
 
     img {

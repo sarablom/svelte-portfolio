@@ -1,10 +1,10 @@
 <script lang="ts">
     export let buttonTitle: string;
-    
 </script>
 
 <button 
-    class="button" on:click type="submit">{buttonTitle}</button>
+    class="button" on:click type="submit">{buttonTitle}
+</button>
 
 <style lang="scss">
     button {

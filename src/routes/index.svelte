@@ -1,5 +1,3 @@
-
-
 <script lang="ts">
     import MainHeading from "$lib/mainHeading.svelte";
     import StarConstellation from "$lib/starConstellation.svelte";
@@ -15,14 +13,19 @@
     <img src={memoji} alt="Avatar">
 </div>
 
-<style>
+<style lang="scss">
     .wrapper {
         display: flex;
         gap: 32px;
         align-items: center;
         justify-content: space-around;
-        height: min(50vh, 500px);
+        
+
+        @media screen and (min-width: 801px) {        
+            height: min(50vh, 500px);
+        }
     }
+    
 
     img {
         width: 300px;

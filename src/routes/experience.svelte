@@ -11,7 +11,7 @@
         <span>SQL databases</span> like <span>MongoDB, Firebase</span> and <span>SQLite</span>. 
       </p>
 
-      <p> 
+      <!-- <p> 
         Other teqniques I've been working with are: 
       </p>
         <ul>
@@ -26,30 +26,41 @@
        
       <p>
         I've been working in Scrum and Kanban 
-        teams for several years,so I know a lot about agile team work. If I may 
-        say it myself, I'm great at keeping a good relationship with both customers 
-        and team members.
-      </p>
-      
+        teams for several years,so I know a lot about agile team work. I'm great 
+        at keeping a good relationship with both customers and team members.
+      </p> -->
 
-      <p>
-        I previously worked in the transport sector for 15 years. I started as
-        a busdriver, then I managed the bus fleet. After that I worked in the
-        trafic controll, to help make sure that all traffic ran smoothly. Then
-        I started working for the head of public transport in my region called
-        Västtrafik.
-      </p>
+      <!-- <p>
+        I have many years experience in different work positions like project leader and
+        personnel planner. I've also completed a couple of educations, a bachelor degree 
+        in learship and change management and master in sustainable urban development. 
+        My previous experiences have helped me grow a lot as a person, and I think it
+        made me a better employee, with a wider perspective of organizational issues.
+      </p> -->
 
-      <p>
-        In between my different work positions I've also completed a couple of
-        educations. I have a bachelor degree in learship and change
-        management. Even though I figured out I didn't want to be a company
-        leader, the education made me grow a lot as a person, and I think it
-        made me a better employee, with a wider perspective of organizational
-        issues.
-      </p>
+      <h2 class="edu">Work experience<span class="dot"></span></h2>
       
-      <h1 class="edu">Education<span class="dot"></span></h1>
+      <ul>
+        <li>
+          Frontend developer, Medtanken Group
+          <br />2023 - current 
+          <br />Developing and maintaining apps, internal systems and webpages of multiple health care centers.
+          <br />Techniques: React, TypeScript, JavaScript, Flutter, SCSS, Trello, Figma and a little bit of Python
+        </li>
+        <li>
+          Software developer, FrontEdge IT
+          <br />2022
+          <br />Internship and hourly employment during the end of my education.
+          <br />Techniques: React, TypeScript, JavaScript, Next, Gatsby, Node, Express, Styled components, SCSS, Azure, Figma and a little bit of C#
+        </li>
+        <li>
+          Project manager and personnel planner at Trafikantservice        
+          <br />2013-2020
+        </li>
+
+      </ul>
+      
+      <h2 class="edu">Education<span class="dot"></span></h2>
       
       <ul>
         <li>
@@ -58,7 +69,15 @@
         <li>Master in sustainable urban development at Malmö University</li>
         <li>Bachelor in leadership, quality and change-management at Uppsala University</li>
       </ul>
-      </section>
+
+      <h2 class="edu">Courses<span class="dot"></span></h2>
+      <ul>
+        <li>
+          CSS for JavaScript developers - Josh W Comeau
+        </li>
+        <li>The joy of React - Josh W Comeau</li>
+      </ul>
+    </section>
 
 <style lang="scss">
   .experience {

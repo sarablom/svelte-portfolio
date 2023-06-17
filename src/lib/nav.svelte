@@ -76,13 +76,13 @@
             var(--color-dark-peachpuff) 50%,
             var(--color-dark-peachpuff) 50%
             );
-            background-size: 200% 100%;
-            background-position: -100%;
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-            -webkit-text-fill-color: transparent;
-            transition: all 0.3s ease-in-out;
+        background-size: 200% 100%;
+        background-position: -100%;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+        transition: all 0.3s ease-in-out;
 
         &:before {
             content: '';
@@ -92,9 +92,10 @@
             bottom: -3px;
             right: 5;
             width: 0;
-            height: 3px;
+            height: 1px;
             transition: all 0.3s ease-in-out;
         }
+
 
         &:hover {
             background-position: 0;

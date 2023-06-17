@@ -73,9 +73,15 @@
       <h2 class="edu">Courses<span class="dot"></span></h2>
       <ul>
         <li>
-          CSS for JavaScript developers - Josh W Comeau
+          CSS for JavaScript Developers - Josh W Comeau
         </li>
-        <li>The joy of React - Josh W Comeau</li>
+        <li>The Joy of React - Josh W Comeau</li>
+        <li>Modern JavaScript (Complete guide from Novice to Ninja) - Shaun Pelling</li>
+        <li>Design rules: Principles + Practices for Great UI Design - Joe Natoli</li>
+        <li>Clean Code - Maximilian Schwarzmüller</li>
+        <li>Build Web Apps with React & Firebase - Shaun Pelling</li>
+        <li>Svelte Tutorial - Shaun Pelling</li>
+        <li>C# Basics for Beginners: Learn C# Fundamentals by Coding - Mosh Hamedani</li>
       </ul>
     </section>
 

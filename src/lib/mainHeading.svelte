@@ -9,14 +9,12 @@
 		text-align: center;
 		margin-bottom: 32px;
 		font-size: var(--font-size-xxl);
-		background: -webkit-linear-gradient(
-			0deg, 
-			var(--color-dark-peachpuff),
-			var(--color-peachpuff),
-			var(--color-light-peachpuff),  
-			var(--color-peachpuff),
-			var(--color-dark-peachpuff)
-		);
+		background-image: linear-gradient(
+            to right, 
+            var(--color-aubergine), 
+            var(--color-dark-peachpuff) 50%,
+            var(--color-dark-peachpuff) 50%
+            );
 		-webkit-background-clip: text;
 		background-clip: text;
 		-webkit-text-fill-color: transparent;

@@ -2,9 +2,9 @@
 	{
 		"id": -1,
 		"title": "This portfolio",
-		"description": "I wanted to  try out Svelte for the first time and decided to use it in my Portfolio. This i a static site, so my focus was to play a litlle bit with Svelte animations and to draw with CSS (the Leo star sign at the home scrren). I really enjoyed the coding experience and this is a constantly changing project which will develop over time.",
+		"description": "I wanted to  try out Svelte and decided to use it to build my Portfolio. This is a static site, so my focus is to play a litlle bit with Svelte animations and to draw with CSS (the Leo star sign at the home screen). I really enjoyed the coding experience and this is a constantly changing project which will develop over time.",
 		"techniques": ["Svelte", "SvelteKit", "TypeScript", "SCSS", "Figma"],
-		"pageHref": "",
+		"pageHref": "https://sarablom.se",
 		"codeHref": "https://github.com/sarablom/svelte-portfolio",
 		"transition": {
 			"x": 100,
@@ -14,7 +14,7 @@
 	{
 		"id": -2,
 		"title": "Deathracer",
-		"description": "This is actually the site of the band I play drums in. It is under development and I want to use it as a platform for really deepening my React and TypeScript skills. This project will change from week to week.",
+		"description": "This is actually the site of the band I play drums in. It is under development and I want to use it as a platform for really deepening my React and TypeScript skills. I recently updated the project to use Next 13.4 with server components. I build custom hooks, implement useReduce in combination with useContext. A really fun project code wise, so fun that I down prioritize getting actual content on place. This project will change from week to week and eventually you will be able to buy merch and read band info.",
 		"techniques": ["React", "TypeScript", "Styled components", "Figma"],
 		"pageHref": "https://deathracer.vercel.app/",
 		"codeHref": "https://github.com/sarablom/deathracer",

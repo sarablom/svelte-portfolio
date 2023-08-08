@@ -37,6 +37,7 @@
 
 <section class="project">
   <MainHeading headingTitle={project.title} />
+  <a class="back-button" href="/projects">Tillbaka</a>
   <p>{project.description}</p>
   <h3>Techniques</h3>
   <ol>
@@ -49,19 +50,20 @@
       href={project.pageHref}
       target="_blank"
       rel="noopener noreferrer"
-  >The site
+  >
+    The site
   </a>
   <span class="dot white"></span>
   {#if (project.codeHref)}
-  <a
-  class="project-link"
-  href={project.codeHref}
-  target="_blank"
-  rel="noopener noreferrer"
-  >The code
-  </a>
+    <a
+    class="project-link"
+    href={project.codeHref}
+    target="_blank"
+    rel="noopener noreferrer"
+    >The code
+    </a>
   {:else}
-  <span class="no-code">Code not public</span>
+    <span class="no-code">Code not public</span>
   {/if}
 </section>
 
@@ -82,9 +84,14 @@
       border-radius: 50%;
       background-color: var(--color-dark-peachpuff);
   }
-  
 
-  a {
+  a.back-button {
+    border: 1px solid var(--color-dark-peachpuff);
+    border-radius: 4px;
+    padding: 4px 8px;
+  }
+
+  a.project-link {
       padding: 4px 2px;
 
   &:focus {

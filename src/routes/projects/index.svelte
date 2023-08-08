@@ -41,11 +41,11 @@
         opacity: 0.5,
         ...transition, 
     }}>
-    <a href={`/projects/${id}`}>
+        <a href={`/projects/${id}`}>
             <h3>{title}</h3>
             <p>{description}</p>
         </a>
-        </article>
+    </article>
     {/each}
 </section>
 
@@ -59,7 +59,8 @@
     }
 
     article {
-        padding: 16px;
+        margin: 0;
+        padding: 0 16px;
         border-radius: 16px;
         background: var(--color-gray-100); 
         box-shadow: 3.8px 7.5px 7.5px hsl(0deg 0% 0% / 0.38);
@@ -76,7 +77,6 @@
             -webkit-line-clamp: 3;
             overflow: hidden;
             word-break: break-word;
-            margin-bottom: 1em;
         }
         
             a {

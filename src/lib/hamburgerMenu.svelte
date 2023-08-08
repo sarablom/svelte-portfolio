@@ -41,8 +41,9 @@
       align-items: center;
       overflow: hidden;
       background: transparent;
-      border: 2px solid var(--color-beige);
       border-radius: 2px;
+      border: none;
+      padding: 0;
     }
   
     svg {

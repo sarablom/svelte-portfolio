@@ -14,10 +14,10 @@
         color: var(--color-peachpuff);
         border: none;
         margin: 32px 0;
-        padding: 16px 32px;
+        padding: 8px 16px;
         border-radius: 4px;
-        font-size: var(--font-size-m);
-        font-weight: 600;
+        font-size: var(--font-size-base);
+        font-weight: 500;
         cursor: pointer;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
         transition: transform 250ms;

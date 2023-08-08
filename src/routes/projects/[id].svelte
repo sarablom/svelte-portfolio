@@ -27,11 +27,7 @@
 </script>
 
 <script lang="ts">
-	import {
-		AirplayIcon,
-		AtSignIcon,
-		ArrowLeftCircleIcon,
-	} from "svelte-feather-icons";
+	import { ArrowLeftCircleIcon } from "svelte-feather-icons";
 	import MainHeading from "$lib/mainHeading.svelte";
 	export let project: Project;
 	export let { techniques } = project;

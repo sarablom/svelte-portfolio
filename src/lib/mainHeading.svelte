@@ -21,7 +21,8 @@
 	}
 	@media screen and (max-width: 801px) {
 		h1 {
-			margin-bottom: 0;
+			margin: 0 auto;
+      max-width: 300px;
 		}
 	}
 </style>

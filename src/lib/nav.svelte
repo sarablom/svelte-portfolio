@@ -114,7 +114,7 @@
 		flex-direction: column;
 		position: absolute;
 		gap: 16px;
-		top: 80px;
+		top: 60px;
 		right: -32px;
 		background-color: var(--color-gray-100);
 		list-style-type: none;

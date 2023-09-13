@@ -110,12 +110,13 @@
 	}
 
 	ul.burgerMenuOpen {
-		display: flex;
-		flex-direction: column;
+    z-index: 1;
 		position: absolute;
-		gap: 16px;
 		top: 60px;
 		right: -32px;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
 		background-color: var(--color-gray-100);
 		list-style-type: none;
 		padding: 32px 32px 64px 100vw;

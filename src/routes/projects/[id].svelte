@@ -47,7 +47,8 @@
 			<li>{technique}</li>
 		{/each}
 	</ol>
-	<a
+	{#if project.pageHref}
+  <a
 		class="project-link"
 		href={project.pageHref}
 		target="_blank"
@@ -56,6 +57,7 @@
 		The site
 	</a>
 	<span class="dot white" />
+  {/if}
 	{#if project.codeHref}
 		<a
 			class="project-link"

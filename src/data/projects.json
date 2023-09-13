@@ -63,17 +63,5 @@
 			"x": 100,
 			"y": -100
 		}
-	},
-	{
-		"id": 3,
-		"title": "Instablam",
-		"description": "An application where you can take photos and save them to a gallery. The photos are saved in LocalStorage. The focus with building this app has been interacting with the camera and GPS of the users device. On tablets and mobile devices the users are able to flip the screen of the camera. The app is also a PWA, which makes it app friendly. This really was a challenging project for me, but I learned so much!",
-		"techniques": ["React", "JavaScript", "Figma", "Netlify"],
-		"pageHref": "https://instablam-pwa.netlify.app/",
-		"codeHref": "https://github.com/sarablom/pwa-instablam",
-		"transition": {
-			"x": 100,
-			"y": 100
-		}
 	}
 ]

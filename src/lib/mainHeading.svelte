@@ -19,7 +19,7 @@
 		background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
-	@media screen and (max-width: 801px) {
+	@media screen and (max-width: 601px) {
 		h1 {
 			margin: 0 auto;
       max-width: 300px;

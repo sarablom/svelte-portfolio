@@ -95,7 +95,7 @@
 
 	a.back-button {
 		position: absolute;
-		top: 12px;
+		top: -24px;
 		left: 0;
 		border: none;
 		margin-right: auto;

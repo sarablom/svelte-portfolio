@@ -35,10 +35,11 @@
 
 <section class="project">
 	<div class="header-wrapper">
-		<a class="back-button" href="/projects">
+		<a class="back-button aside" href="/projects">
 			<ArrowLeftCircleIcon size="36" />
 		</a>
 		<MainHeading headingTitle={project.title} />
+    <div class="aside" />
 	</div>
 	<p>{project.description}</p>
 	<h3>Techniques</h3>
@@ -73,7 +74,12 @@
 
 <style lang="scss">
 	.header-wrapper {
-		position: relative;
+		display: flex;
+    align-items: baseline;
+    
+    .aside {
+      flex: 1;
+    }
 	}
 
 	p {
@@ -94,9 +100,6 @@
 	}
 
 	a.back-button {
-		position: absolute;
-		top: -24px;
-		left: 0;
 		border: none;
 		margin-right: auto;
 	}

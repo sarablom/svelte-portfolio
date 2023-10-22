@@ -36,35 +36,39 @@
 </footer>
 
 <style lang="scss">
-    footer {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        background-color: var(--color-gray-100);
-        padding: 32px;
+  footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--color-gray-100);
+    padding: 32px;
 
-        @media screen and (max-width: 800px) {        
-            padding: 16px;
-        }
+    @media screen and (max-width: 800px) {        
+        padding: 16px;
     }
+  }
 
-    .wrapper {
-        display: flex;
-        align-items: baseline;
-        justify-content: space-between;
-        min-height: 3rem;
-        width: 100%;
-        max-width: var(--max-width);
+  .wrapper {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    min-height: 3rem;
+    width: 100%;
+    max-width: var(--max-width);
+  }
+
+  .social-media {
+    display: flex;
+    gap: 16px;
+
+    a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:hover {
+      transform: scale(1.1);
     }
-
-    .social-media {
-        display: flex;
-        gap: 16px;
-
-				a {
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				}
     }
+  }
 </style>

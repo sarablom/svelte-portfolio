@@ -42,7 +42,6 @@
 
 <style lang="scss">
 	nav {
-		position: relative;
 		display: flex;
 		align-items: center;
 		width: 100%;
@@ -113,7 +112,8 @@
     z-index: 1;
 		position: absolute;
 		top: 60px;
-		right: -32px;
+		right: 0;
+    bottom: 0;
 		display: flex;
 		flex-direction: column;
 		gap: 16px;

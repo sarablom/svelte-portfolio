@@ -32,7 +32,7 @@
 
 	@media screen and (max-width: 601px) {
 		h1 {
-			margin: 0 auto;
+			margin: 0 auto 16px;
       max-width: 300px;
 		}
 	}

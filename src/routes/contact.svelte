@@ -33,7 +33,6 @@
 			class="textarea"
 			id="message"
 			name="message"
-			for="message"
 			form="form"
 			cols="30"
 			rows="10"

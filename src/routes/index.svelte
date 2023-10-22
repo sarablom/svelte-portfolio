@@ -1,9 +1,7 @@
 <script lang="ts">
     import MainHeading from "$lib/mainHeading.svelte";
     import StarConstellation from "$lib/starConstellation.svelte";
-    import memoji from "$lib/assets/memoji.jpg";
-
-    
+    import memoji from "$lib/assets/memoji.jpg";    
 </script>
 
 

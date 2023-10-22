@@ -7,7 +7,7 @@
 </script>
 
 
-<MainHeading headingTitle="Sara Blom - software developer" />
+<MainHeading headingTitle="Sara Blom - Frontend developer" />
 <div class="wrapper">
     <StarConstellation />
     <img src={memoji} alt="Avatar">

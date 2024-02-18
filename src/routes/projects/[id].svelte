@@ -102,6 +102,8 @@
 	a.back-button {
 		border: none;
 		margin-right: auto;
+    min-width: max-content;
+    padding-right: 16px;
 	}
 
 	a.project-link {

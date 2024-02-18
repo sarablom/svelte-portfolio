@@ -16,18 +16,14 @@
 			var(--color-dark-peachpuff) 50%,
       var(--color-aubergine) 85%
 		);
-		-webkit-background-clip: text;
-		background-clip: text;
 		-webkit-text-fill-color: transparent;
     background-size: auto auto;
     background-clip: border-box;
     background-size: 200% auto;
     color: #fff;
     background-clip: text;
-    text-fill-color: transparent;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 30s linear infinite;
+    animation: textclip 10s linear infinite;
 	}
 
 	@media screen and (max-width: 601px) {

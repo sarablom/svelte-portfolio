@@ -7,7 +7,7 @@
 <footer>
     <div class="wrapper">
         <div class="copy">
-            <p>&#169; Sara Blom, 2023</p>
+            <p>&#169; Sara Blom, 2024</p>
         </div>
         <div class="social-media">
             <a 

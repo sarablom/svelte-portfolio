@@ -66,6 +66,9 @@
         <li>
           Frontend development with special orientation towards Web security at Jensens Higher Vocational Education
         </li>
+        <li>
+          UX and Interaction design at Borås University
+        </li>
         <li>Master in sustainable urban development at Malmö University</li>
         <li>Bachelor in leadership, quality and change-management at Uppsala University</li>
       </ul>

@@ -79,7 +79,7 @@
 			var(--color-dark-peachpuff) 50%,
 			var(--color-dark-peachpuff) 50%
 		);
-		background-size: 200% 100%;
+		background-size: 100%;
 		background-position: -100%;
 		background-clip: text;
 		-webkit-background-clip: text;
@@ -87,24 +87,8 @@
 		-webkit-text-fill-color: transparent;
 		transition: all 0.3s ease-in-out;
 
-		&:before {
-			content: "";
-			background: var(--color-aubergine);
-			display: block;
-			position: absolute;
-			bottom: -3px;
-			right: 5;
-			width: 0;
-			height: 1px;
-			transition: all 0.3s ease-in-out;
-		}
-
 		&:hover {
-			background-position: 0;
-		}
-
-		&:hover::before {
-			width: 75%;
+		text-decoration: underline;
 		}
 	}
 
